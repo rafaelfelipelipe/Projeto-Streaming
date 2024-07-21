@@ -1,0 +1,10 @@
+@import "header.css";
+@import "categorias__titulos.css";
+@import "movie.css";
+@import "atropos.css";
+@import "rodape.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}

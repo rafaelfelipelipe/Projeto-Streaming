@@ -1,0 +1,64 @@
+.movie{
+    width: 100%;
+    height: auto;
+    display: grid;
+    gap: 40px;    
+    background: rgb(178, 59, 243);
+    background: linear-gradient(90deg, rgba(178, 59, 243, 1)1%, rgba(92,21,164,1) 100% ) ;
+    grid-template-rows: 1fr 1fr auto auto;
+    /*As duas primeiras linhas estão com uma fração de tamanho e ha duas auto, que
+    se adequam de acordo com o elemento que será inserido*/
+    grid-template-columns: repeat(12 1fr);
+    /*12 colunas com uma fração de tamanho cada*/
+}
+
+.movie__title{
+    grid-row-start: 1;/*Aqui o titulo está sendo inserido na primeira linha do display*/
+    grid-column: 1/12;/*Aqui estamos dizendo que o titulo pode ocupar todo o espaço entre a coluna 1 a 12*/
+    text-align: center;
+    margin-top: 24px;
+    font-family: "Noto Sans";
+    font-size: 2rem;
+
+}
+
+img, .atropos{
+    width: 400px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.my-atropos1{
+    grid-row-start: 2;
+    grid-column: 2/5;
+}
+
+.my-atropos2{
+    grid-row-start: 2;
+    grid-column: 5/8;
+}
+
+.my-atropos3{
+    grid-row-start: 2;
+    grid-column:8/11 ;
+
+}
+
+.my-atropos4{
+    grid-row-start: 4 ;
+    grid-column: 2/5 ;
+}
+
+
+.my-atropos5{
+    grid-row-start: 4 ;
+    grid-column: 5/8;
+
+}
+
+
+.my-atropos6{
+    grid-row-start: 4 ;
+    grid-column: 8/11 ;
+}
+

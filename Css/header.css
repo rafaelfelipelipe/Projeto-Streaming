@@ -1,0 +1,123 @@
+/* FONTES DO GOOGLE*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@300;500;700&family=Poppins:ital,wght@1,500&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@300;500;700&family=Poppins:ital,wght@1,500&family=Tilt+Neon&display=swap');
+
+header{
+    background-image: url("../Imagens/filmes.png");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+
+    /*CONFIGURANDO O GRID E SUAS COLUNAS E LINHAS (10x10)*/
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+h1{
+    font-family: "Noto Sans";
+    color: white;
+    font-size: 4rem;
+    grid-row-start: 5;
+    grid-column: 2/8;
+}
+
+h2{
+    font-family: "inter";
+    font-weight: 300;
+    font-size:1.5em;
+    color: white;
+    grid-row-start: 7;
+    grid-column: 2/8
+}
+
+nav{
+    grid-column: 1/11;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.logo__imagem{
+    width: 92px;
+    height: 72px;
+
+}
+
+.logo__titulo{
+    font-family: "Delicious Handraw";
+    color:white;
+    font-size: 1.3rem;
+
+}
+
+li{
+
+    margin-right:16px ;
+    display: inline-block;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Sans";
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.home{
+    color: #fd0178;
+    display: inline-flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+hr{
+    width: 42px;
+    margin-top: 4px;
+    display: inline;
+    border-color: #fd0178;
+}
+
+.btn{
+    grid-row-start: 8;/*Aqui definimos em qual linha o objeto irá começar. Porém devemos configurar o layout(aqui está no .header) grid antes de definir a posição dos objetos */
+    grid-column: 2/8;/*Aqui definimos em qual coluna o objeto será posicionado e até qual coluna ele vai, que é a 8. Então temos esse objeto tendo o espaço liberado da coluna 2 a coluna 8.*/
+    display: flex;
+}
+
+.btn__start{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fd0178;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+
+}
+
+.btn__plan{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252c57;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+
+}
