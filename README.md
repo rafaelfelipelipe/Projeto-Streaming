@@ -16,4 +16,4 @@ Este é um projeto desenvolvido no decorrer das aulas do curso livre de Desenvol
 ### Como utilizar 
 
 Você pode visualizar o site ao vivo no seguinte link:
-[Visualizar Projeto Streaming](https://rafaelfelipelipe.github.io/Projeto--DentLab/)
+[Visualizar Projeto Streaming](https://rafaelfelipelipe.github.io/Projeto-Streaming)
